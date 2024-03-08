@@ -1,0 +1,15 @@
+How To Instructions
+
+Building with Github Actions
+
+To build your own uYouEnhanced IPA, follow these steps:
+
+    Find a YouTube IPA on your own, as I cannot provide it due to the following https://enterprise.githubsupport.com/attachments/token/1u4kyYJnjA8HZTPMXOGBhRk4Q/?name=2024-03-06-google.rtf
+
+    Fork this repository, go to Repository Settings > Actions, enable Read and Write permissions, and go to Actions that can be seen in your forked uYouEnhanced repository. Click on Build and Release uYouEnhanced, and then add direct download link of your decrypted YouTube IPA in the text box of The direct URL to the decrypted YouTube ipa and then after that you should now trigger Run Workflow and it will start compiling uYouEnhanced onto the ipa.
+
+    After it’s done compiling you should be able to find your built uYouEnhanced IPA in the Releases tab or found in your compiled workflow that has the Artifacts in the Actions tab.
+
+    (OPTIONAL) For adding Custom Submodules, go to update-submodules.txt that’s located in the Sources folder of this repository, then get the code for adding submodules, add it to update-submodules.yml, modify it with the code you copied, and then you have to add the submodule’s name on a new .Dylib in the Makefile.
+
+Hope this helps with building your uYouEnhanced IPA!
